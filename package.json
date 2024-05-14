@@ -1,0 +1,24 @@
+{
+  "name": "java22-avjs-mp1-franzjosef-birch",
+  "version": "1.0.0",
+  "scripts": {
+    "seed": "node ./src/seed.js",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+    "clean": "del-cli ./.parcel-cache ./docs ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "parcel": "^2.12.0"
+  }
+}
